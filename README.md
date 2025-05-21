@@ -4,7 +4,7 @@
 
 **Svetofon** is a modular mobile application built with Flutter for iOS and Android. It is designed to enhance cognitive and motor functions through interactive training using an external smart trainer panel (Bluetooth LE device).
 
-> Previously implemented in Swift as a native iOS app, the new version adopts a cross-platform approach while preserving core functionality and enhancing flexibility and maintainability.
+> Previously implemented in [Swift as a native iOS app](https://github.com/mavrinpn/Svetofon-App-Swift), the new version adopts a cross-platform approach while preserving core functionality and enhancing flexibility and maintainability.
 
 ---
 
@@ -12,10 +12,32 @@
 
 ![Svetofon](https://github.com/mavrinpn/Svetofon-App/raw/main/img/Svetofon_AppStore_Screenshots_2.png)
 
-- Fully custom UI design
-- Optimized for tablets (iPad and Android Tablet)
-- Adaptive layout across screen sizes
-- Offline-first architecture with server sync
+**Svetofon** is a mobile app designed to assess and improve **reaction speed**, **coordination**, and **cognitive skills** using a Bluetooth-connected smart trainer panel.
+
+The app combines physical and mental exercises to stimulate both the **central** and **peripheral nervous systems**. It’s suitable for use in rehabilitation, sports performance, and mental training programs.
+
+The main screen features a categorized catalog of exercises with clear text instructions and flexible difficulty levels.
+
+---
+
+### ✅ Key Capabilities
+
+- Measures **reaction times**: simple, choice-based, and discrimination
+- Tracks **accuracy**, including correct/incorrect responses and missed targets
+- Exports training results to **XLSX** or **PDF**
+- Fully functional in **offline mode** with optional cloud backup
+
+---
+
+### 🧠 Cognitive & Physical Benefits
+
+Training with Svetofon helps to:
+
+- Improve **focus**, **memory**, and **concentration**
+- Speed up **motor response**
+- Enhance **visual and auditory processing**
+- Boost **coordination** and **movement control**
+- Reduce **anxiety** and **mental fatigue**
 
 ---
 
@@ -45,8 +67,12 @@ Main application with:
 
 ---
 
-## 🧠 Architecture
+## 🧠 Architecture and Features
 
+- Fully custom UI design
+- Optimized for tablets (iPad and Android Tablet)
+- Adaptive layout across screen sizes
+- Offline-first architecture with server sync
 - Modular monorepo structure
 - Clean separation of business logic and presentation
 - Feature-first file organization
@@ -97,7 +123,7 @@ The previous version of Svetofon was developed natively for iOS and connected to
 
 ## 📦 App Store and Google Play
 
-- App published at [App Store](https://apps.apple.com/ru/app/светофон/id1597336312)
+- App published at [App Store](https://apps.apple.com/en/app/svetofon/id6737197083)
 
 ![AppStore Link](https://github.com/mavrinpn/Svetofon-App/raw/main/img/AppStore.png)
 
@@ -106,6 +132,6 @@ The previous version of Svetofon was developed natively for iOS and connected to
 
 ## 📇 Contact
 
-**Author**: [Pavel Mavrin](https://www.linkedin.com/in/pavel-mavrin-developer/)
+**Author**: [Pavel Mavrin](https://www.linkedin.com/in/mavrinpn/)
 
 ---
