@@ -2,6 +2,12 @@
 
 # Svetofon — Smart Reaction Trainer
 
+## 📱 Supported Platforms
+
+- ✅ iOS (iPhone+iPad)
+- ✅ Android
+- ✅ Huawei (with no Google Services)
+
 **Svetofon** is a modular mobile application built with Flutter for iOS and Android. It is designed to enhance cognitive and motor functions through interactive training using an external smart trainer panel (Bluetooth LE device).
 
 > Previously implemented in [Swift as a native iOS app](https://github.com/mavrinpn/Svetofon-App-Swift), the new version adopts a cross-platform approach while preserving core functionality and enhancing flexibility and maintainability.
@@ -10,7 +16,7 @@
 
 ## 📱 App Overview
 
-![Svetofon](https://github.com/mavrinpn/Svetofon-App/raw/main/img/Svetofon_AppStore_Screenshots_2.png)
+![Svetofon](https://github.com/mavrinpn/Svetofon-App/raw/main/img/Svetofon3_iPhone.png)
 
 **Svetofon** is a mobile app designed to assess and improve **reaction speed**, **coordination**, and **cognitive skills** using a Bluetooth-connected smart trainer panel.
 
@@ -132,6 +138,7 @@ The previous version of Svetofon was developed natively for iOS and connected to
 
 ## 📇 Contact
 
-**Author**: [Pavel Mavrin](https://www.linkedin.com/in/mavrinpn/)
+**Author**: Pavel Mavrin  
+[LinkedIn](https://www.linkedin.com/in/mavrinpn/)
 
 ---
