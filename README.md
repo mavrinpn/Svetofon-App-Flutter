@@ -1,4 +1,4 @@
-![Svetofon Smart Trainer](https://github.com/mavrinpn/Svetofon-App/raw/main/img/trainer.png)
+![Svetofon Smart Trainer](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/trainer.png)
 
 # Svetofon — Smart Reaction Trainer
 
@@ -16,7 +16,7 @@
 
 ## 📱 App Overview
 
-![Svetofon](https://github.com/mavrinpn/Svetofon-App/raw/main/img/Svetofon3_iPhone.png)
+![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPhone.png)
 
 **Svetofon** is a mobile app designed to assess and improve **reaction speed**, **coordination**, and **cognitive skills** using a Bluetooth-connected smart trainer panel.
 
@@ -117,13 +117,13 @@ The previous version of Svetofon was developed natively for iOS and connected to
 
 ## Supports iPad
 
-![Svetofon](https://github.com/mavrinpn/Svetofon-App/raw/main/img/Svetofon_AppStore_Screenshots_3.png)
+![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon_AppStore_Screenshots_3.png)
 
 ---
 
 ## 📺 Watch on Youtube
 
-[![Svetofon Youtube](https://github.com/mavrinpn/Svetofon-App/raw/main/img/youtube.png)](https://www.youtube.com/watch?v=dg87534pwd8)
+[![Svetofon Youtube](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/youtube.png)](https://www.youtube.com/watch?v=dg87534pwd8)
 
 ---
 
@@ -131,7 +131,7 @@ The previous version of Svetofon was developed natively for iOS and connected to
 
 - App published at [App Store](https://apps.apple.com/en/app/svetofon/id6737197083)
 
-![AppStore Link](https://github.com/mavrinpn/Svetofon-App/raw/main/img/AppStore.png)
+![AppStore Link](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/AppStore.png)
 
 
 ---
