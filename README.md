@@ -70,6 +70,8 @@ Main application with:
 - **File handling**: PDF/XLSX export (`pdf`, `excel`), sharing/import (`share_plus`, `open_file`, `receive_sharing_intent`)
 - **UI utilities**: expandable views, custom fonts and layout params
 
+![VS Code](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/vscode.png)
+
 ---
 
 ## 🧩 Features
