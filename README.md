@@ -20,7 +20,7 @@
 
 ---
 
-## 📱 App Overview
+## 📱 What the App Does
 
 ![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPhone.png)
 
@@ -32,23 +32,24 @@ The main screen features a categorized catalog of exercises with clear text inst
 
 ---
 
-### 🔐 Key Capabilities
+### 🧩 Core Functional Capabilities
 
 - Measures **reaction times** with near real-time latency (under 10ms)
 - Exports training results to **XLSX** and **PDF** formats
 - Supports export/import of **File Cabinet cards** and **Favorite exercises** using a proprietary JSON-based format
 - Fully functional in **offline mode** with **auto-sync** when Internet connection is available
-- Exercise and module catalog with **group-based access control**
+- Exercise and module catalog with **user group-based access control**
 - Full **multilingual support**, including UI localization and **voice guidance** during exercises
-- **Multichannel Audio and vibration feedback** for interactive training sessions
-- Backup and **restore of the local user database**, including rollback capabilities
-- Custom exercise configuration with JSON-based protocol
+- **Multichannel audio and vibration feedback** for interactive training sessions
+- Backup and **restore of the local user database** with rollback capabilities
+- Configurable exercise logic using a structured JSON protocol
 
 ---
 
 ## 🧠 Architecture and Libs
 
-The Flutter app is split into two independent modules:
+The Flutter app is designed using a scalable modular architecture that separates core logic from UI and platform-specific concerns.
+The app is split into two independent modules:
 
 ### **🧩 `svetofon_common`**
 
@@ -59,26 +60,26 @@ Reusable module with:
 - PocketBase API client
 - Shared models, services, and UI widgets
 - SVG, image caching, HTML rendering
-- and other
+- and more
 
 ### **📲 `svetofon_flutter_app`**
 
 Main application with:
 - **Bluetooth LE** integration (`flutter_blue_plus`)
 - **Local data storage**: `sqflite`, `shared_preferences`
-- **Multimedia**: sound playback (`flutter_soloud`), text-to-speech (`flutter_tts`), vibration
+- **Multimedia**: sound playback (`flutter_soloud`), text-to-speech (`flutter_tts`), vibration feedback
 - **File handling**: PDF/XLSX export (`pdf`, `excel`), sharing/import (`share_plus`, `open_file`, `receive_sharing_intent`)
-- **UI utilities**: expandable views, custom fonts and layout params
+- **UI utilities**: expandable views, custom fonts and layout settings
 
 ![VS Code](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/vscode.png)
 
 ---
 
-## 🧩 Features
+## 🔧 Technical Features
 
 - Fully custom UI design
 - Optimized for tablets (iPad and Android Tablet)
-- Adaptive layout across screen sizes
+- Adaptive layout for various screen sizes
 - Offline-first architecture with server sync
 - Modular monorepo structure
 - Clean separation of business logic and presentation
@@ -94,7 +95,7 @@ Main application with:
 ## 📤 Export Data Feature
 
 - User training data can be exported to `.xlsx` or `.pdf`
-- Result files contains custom tables, charts, graphs and descriptions
+- Exported files include structured tables, performance graphs, analytical charts, and descriptive summaries
 
 ![Svetofon PDF Protocol](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/protocol.png)
 
