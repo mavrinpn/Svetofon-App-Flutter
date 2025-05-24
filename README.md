@@ -22,7 +22,7 @@
 
 ## 📱 App Overview
 
-![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPhones.png)
+![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPhone.png)
 
 **Svetofon** is a mobile app designed to assess and improve **reaction speed**, **coordination**, and **cognitive skills** using a Bluetooth-connected smart trainer panel.
 
@@ -40,7 +40,7 @@ The main screen features a categorized catalog of exercises with clear text inst
 - Fully functional in **offline mode** with **auto-sync** when Internet connection is available
 - Exercise and module catalog with **group-based access control**
 - Full **multilingual support**, including UI localization and **voice guidance** during exercises
-- **Audio and vibration feedback** for interactive training sessions
+- **Multichannel Audio and vibration feedback** for interactive training sessions
 - Backup and **restore of the local user database**, including rollback capabilities
 - Custom exercise configuration with JSON-based protocol
 
@@ -84,6 +84,8 @@ Main application with:
 - **Remote configuration** of app settings, themes, icons, and UI elements from the server
 - Custom server-based **Translation Management System** with pluralization support
 - **Intelligent version control**: ensures exercises are only available if supported by the current app version
+
+![Svetofon iPad](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPad.png)
 
 ---
 
