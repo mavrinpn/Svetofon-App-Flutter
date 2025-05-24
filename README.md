@@ -22,7 +22,7 @@
 
 ## 📱 App Overview
 
-![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPhone.png)
+![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon3_iPhones.png)
 
 **Svetofon** is a mobile app designed to assess and improve **reaction speed**, **coordination**, and **cognitive skills** using a Bluetooth-connected smart trainer panel.
 
