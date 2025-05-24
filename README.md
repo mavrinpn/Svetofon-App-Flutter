@@ -1,6 +1,12 @@
-![Svetofon Smart Trainer](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/trainer.png)
+![Svetofon Smart Trainer](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetoton_cover.jpeg)
 
 # Svetofon — Smart Reaction Trainer
+
+## 📱 Stack
+
+- 🧩 Mobile Frontend: Flutter/Dart
+- 🧩 Backebd: PocketBase
+- 🧩 Admin Dashboard: Flutter Web
 
 ## 📱 Supported Platforms
 
