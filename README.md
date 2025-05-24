@@ -2,17 +2,17 @@
 
 # Svetofon — Smart Reaction Trainer
 
-## 📱 Stack
+## 🛠️ Tech Stack
 
 - 🧩 Mobile Frontend: Flutter/Dart
-- 🧩 Backebd: PocketBase
-- 🧩 Admin Dashboard: Flutter Web
+- 🧩 Backend: PocketBase
+- 🧩 Admin and Statistics Dashboard: Flutter Web
 
-## 📱 Supported Platforms
+## 📦 Supported Platforms and Store Links
 
-- ✅ iOS (iPhone+iPad)
-- ✅ Android
-- ✅ Huawei (with no Google Services)
+- ✅ iOS (iPhone + iPad): [App Store](https://apps.apple.com/en/app/svetofon/id6737197083)
+- ✅ Android: [Google Play]()
+- ✅ Huawei (with no Google Services): [APK]
 
 **Svetofon** is a modular mobile application built with Flutter for iOS and Android. It is designed to enhance cognitive and motor functions through interactive training using an external smart trainer panel (Bluetooth LE device).
 
@@ -32,28 +32,21 @@ The main screen features a categorized catalog of exercises with clear text inst
 
 ---
 
-### ✅ Key Capabilities
+### 🔐 Key Capabilities
 
-- Measures **reaction times**: simple, choice-based, and discrimination
-- Tracks **accuracy**, including correct/incorrect responses and missed targets
-- Exports training results to **XLSX** or **PDF**
-- Fully functional in **offline mode** with optional cloud backup
-
----
-
-### 🧠 Cognitive & Physical Benefits
-
-Training with Svetofon helps to:
-
-- Improve **focus**, **memory**, and **concentration**
-- Speed up **motor response**
-- Enhance **visual and auditory processing**
-- Boost **coordination** and **movement control**
-- Reduce **anxiety** and **mental fatigue**
+- Measures **reaction times** with near real-time latency (under 10ms)
+- Exports training results to **XLSX** and **PDF** formats
+- Supports export/import of **File Cabinet cards** and **Favorite exercises** using a proprietary JSON-based format
+- Fully functional in **offline mode** with **auto-sync** when Internet connection is available
+- Exercise and module catalog with **group-based access control**
+- Full **multilingual support**, including UI localization and **voice guidance** during exercises
+- **Audio and vibration feedback** for interactive training sessions
+- Backup and **restore of the local user database**, including rollback capabilities
+- Custom exercise configuration with JSON-based protocol
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Architecture and Libs
 
 The Flutter app is split into two independent modules:
 
@@ -66,6 +59,7 @@ Reusable module with:
 - PocketBase API client
 - Shared models, services, and UI widgets
 - SVG, image caching, HTML rendering
+- and other
 
 ### **📲 `svetofon_flutter_app`**
 
@@ -73,13 +67,12 @@ Main application with:
 - **Bluetooth LE** integration (`flutter_blue_plus`)
 - **Local data storage**: `sqflite`, `shared_preferences`
 - **Multimedia**: sound playback (`flutter_soloud`), text-to-speech (`flutter_tts`), vibration
-- **File handling**: PDF/XLSX export, sharing/import
-- **Camera support**: image picking and cropping
-- **UI utilities**: expandable views, custom fonts
+- **File handling**: PDF/XLSX export (`pdf`, `excel`), sharing/import (`share_plus`, `open_file`, `receive_sharing_intent`)
+- **UI utilities**: expandable views, custom fonts and layout params
 
 ---
 
-## 🧠 Architecture and Features
+## 🧩 Features
 
 - Fully custom UI design
 - Optimized for tablets (iPad and Android Tablet)
@@ -88,42 +81,18 @@ Main application with:
 - Modular monorepo structure
 - Clean separation of business logic and presentation
 - Feature-first file organization
-- Offline-first interaction with remote sync fallback
-- Custom exercise configuration with JSON-based protocol
+- **Remote configuration** of app settings, themes, icons, and UI elements from the server
+- Custom server-based **Translation Management System** with pluralization support
+- **Intelligent version control**: ensures exercises are only available if supported by the current app version
 
 ---
 
-## 🔐 Authentication Flow
-
-- Persistent token-based offline authentication
-- Server sync for backup/restore when available
-
----
-
-## 📤 Export & Configuration
+## 📤 Export Data
 
 - User training data can be exported to `.xlsx` or `.pdf`
-- Exercise sets can be created and edited via in-app configurator
-- Supports export/import of training routines via JSON
+- Result files contains custom tables, charts, graphs and descriptions
 
----
-
-## 🧩 Backend Stack (Legacy Swift Version)
-
-The previous version of Svetofon was developed natively for iOS and connected to a custom backend:
-- **Node.js (Express, Mongoose, Passport)**
-- **MongoDB** for user data
-- Deployed on VDS with **Nginx proxy**
-- API included:
-  - Authentication
-  - Analytics
-  - Backup management
-
----
-
-## Supports iPad
-
-![Svetofon](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/Svetofon_AppStore_Screenshots_3.png)
+![Svetofon PDF Protocol](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/protocol.png)
 
 ---
 
@@ -133,18 +102,10 @@ The previous version of Svetofon was developed natively for iOS and connected to
 
 ---
 
-## 📦 App Store and Google Play
-
-- App published at [App Store](https://apps.apple.com/en/app/svetofon/id6737197083)
-
-![AppStore Link](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/AppStore.png)
-
-
----
-
 ## 📇 Contact
 
 **Author**: Pavel Mavrin  
 [LinkedIn](https://www.linkedin.com/in/mavrinpn/)
+[Telegram](https://t.me/mavrinpn)
 
 ---
