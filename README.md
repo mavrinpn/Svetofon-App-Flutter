@@ -91,18 +91,12 @@ Main application with:
 
 ---
 
-## 📤 Export Data
+## 📤 Export Data Feature
 
 - User training data can be exported to `.xlsx` or `.pdf`
 - Result files contains custom tables, charts, graphs and descriptions
 
 ![Svetofon PDF Protocol](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/protocol.png)
-
----
-
-## 📺 Watch on Youtube
-
-[![Svetofon Youtube](https://github.com/mavrinpn/Svetofon-App-Flutter/raw/main/img/youtube.png)](https://www.youtube.com/watch?v=dg87534pwd8)
 
 ---
 
